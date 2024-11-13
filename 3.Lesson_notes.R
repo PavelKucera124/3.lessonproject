@@ -30,4 +30,7 @@ usethis::create_from_github(
 #In git bar(in right ), we can click button to stage or unstage the button
 #The git will remeber even deleted file, but only if staged before
 #Git can also remembe other documents inside Project forlder,than R documents and chages that happend
-#
+#We can commit document by pressing commit button
+#This will show filles we want to commit + changes that happened inside of them in past 
+#I have to press other commit button inside that window 
+#I can also write down changes
