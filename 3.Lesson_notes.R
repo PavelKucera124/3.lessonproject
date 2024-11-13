@@ -43,3 +43,25 @@ usethis::create_from_github(
 #Afeter we commit changes, we have to push them, to synchronize project on my local divece to the remote storage
 
 usethis::use_github(protocol  = "https")#Firs, we have to actualy save the project in the remote location (GitHub)
+#Careful, by default, all projects are public, I have to make it private to denny acces to others
+#In this project, I can see, what chages happened 
+#Commits are permanent- I can only make changes with 
+#If I do not want repository to by public, I go to settings, down at the bottom in "Danger zone" I can chage it to private
+
+#I can also create new Repository inside the GitHub 
+#Either I click create new 
+#It is always good to have read me file inside the program
+
+#Inside the danger zone, I can also delete repository
+
+#.gitignorefile- list of thinks git should ignore in file
+#I belive, the gitgnore is in gitrepository by default
+#To update my folder from GIThub
+#
+
+####Merge - if two people change same folder differently, merge conflic happens
+#How to prevent - in presentation
+
+#If we have merge conflict-I have to do
+
+#I can also right revert, if we makew changes, we do not want -RIGHT clic 
