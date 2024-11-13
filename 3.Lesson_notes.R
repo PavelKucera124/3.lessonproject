@@ -36,3 +36,10 @@ usethis::create_from_github(
 #I can also write down changes
 
 #Ondřej Mottl recomends to commit often, because it is "cheap" and it helps to track our progress
+#Dif- the difference between two commited chages
+
+
+###Remote
+#Afeter we commit changes, we have to push them, to synchronize project on my local divece to the remote storage
+
+usethis::use_github(protocol  = "https")#Firs, we have to actualy save the project in the remote project
