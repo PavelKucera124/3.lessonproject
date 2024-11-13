@@ -43,6 +43,7 @@ usethis::create_from_github(
 #Afeter we commit changes, we have to push them, to synchronize project on my local divece to the remote storage
 
 usethis::use_github(protocol  = "https")#Firs, we have to actualy save the project in the remote location (GitHub)
+
 #Careful, by default, all projects are public, I have to make it private to denny acces to others
 #In this project, I can see, what chages happened 
 #Commits are permanent- I can only make changes with 
@@ -65,3 +66,7 @@ usethis::use_github(protocol  = "https")#Firs, we have to actualy save the proje
 #If we have merge conflict-I have to do
 
 #I can also right revert, if we makew changes, we do not want -RIGHT clic 
+
+# By pull request we merge two branches
+# I can make changes even after the request before actual merger 
+
