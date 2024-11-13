@@ -34,3 +34,5 @@ usethis::create_from_github(
 #This will show filles we want to commit + changes that happened inside of them in past 
 #I have to press other commit button inside that window 
 #I can also write down changes
+
+#Ondřej Mottl recomends to commit often, because it is "cheap" and it helps to track our progress
