@@ -82,5 +82,4 @@ usethis::use_github(protocol  = "https")#Firs, we have to actualy save the proje
 pr_init("initbranch")#this will actually create branch
 pr_push()#Commiting the branch, which I am curently using
 pr_finish()#It will merge the branches
-pr_push
 
