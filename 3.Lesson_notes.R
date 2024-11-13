@@ -42,4 +42,4 @@ usethis::create_from_github(
 ###Remote
 #Afeter we commit changes, we have to push them, to synchronize project on my local divece to the remote storage
 
-usethis::use_github(protocol  = "https")#Firs, we have to actualy save the project in the remote project
+usethis::use_github(protocol  = "https")#Firs, we have to actualy save the project in the remote location (GitHub)
