@@ -45,3 +45,16 @@ usethis::create_from_github(
 usethis::use_github(protocol  = "https")#Firs, we have to actualy save the project in the remote location (GitHub)
 # By pull request we merge two branches
 # I can make changes even after the request before actual merger 
+
+#There are three ways tow comits merges
+#Merge itself wont delete branch
+#If we want to delete branches after mergenig, we have to do it after 
+
+#Merging will save different data from one branch into the other branch
+
+#It is easy to delete branch in gitHub but not in RStudio
+#
+pr_init("initbranch")#this will actually create branch
+pr_push()#Commiting the branch, which I am curently using
+pr_finish()#It will merge the branches
+pr_push
